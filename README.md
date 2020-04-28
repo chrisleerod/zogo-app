@@ -4,6 +4,11 @@ The approach for this project was to use GitHub's traditional black and white co
 
 I do think there could be a better solution created for the grid system I have in place.
 
+Thing I wanted to incorporate:
+- Skeleton Loader
+- Repo sort functionality (popularity, language, etc.)
+- "Home" page
+
 # How to use
 
 Use the search field in the top right to search any GitHub user!
