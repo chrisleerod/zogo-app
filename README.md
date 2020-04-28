@@ -2,6 +2,10 @@
 
 I coded this with one thing in mind, giving GitHub a refreshing and playful refresh. I wanted to approach this with responsiveness in mind, so I set out to create a web-app that did such. I really wanted to venture into the optional features, but was running short on time.
 
+# How to use
+
+Use the search input to search for a GitHub user. The app will take care of the rest! View repositories, followers, location, etc.
+
 # ZogoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
