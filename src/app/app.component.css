@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Lato";
+    margin: 0px;
+    background-color: #fafbfc;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search svg {
+    position: absolute;
+    margin-left: 12px;
+    width: 16px;
+}
+
+.input::placeholder {
+    color: #7d919f;
+}
+
+.input {
+    height: 40px;
+    width: 200px;
+    border-radius: 8px 0px 0px 8px;
+    border: 3px black solid;
+    color: black;
+    padding-left: 32px;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn {
+    margin: 0px;
+    height: 40px;
+    width: 75px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: black;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.profile-container {
+    max-width: 1264px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+
+.nav {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.avatar {
+    max-height: 256px;
+    margin-right: 32px;
+    border-radius: 8px;
+    border: 3px black solid;
+}
+
+.name {
+    margin-bottom: 16px;
+}
+
+.name h2 {
+    margin: 0px;
+    margin-bottom: 4px;
+}
+
+.name h3 {
+    margin: 0px;
+    color: #7d919f;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.profile-badge {
+    display: flex;
+    justify-content: center;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    background-color: black;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.repos {
+    margin-right: 24px;
+    display: flex;
+}
+
+.repos p {
+    margin: 0px;
+    color: white;
+}
+
+.repos span {
+    font-weight: 700;
+}
+
+.followers {
+    margin-right: 24px;
+    display: flex;
+}
+
+.followers p {
+    margin: 0px;
+    color: white;
+}
+
+.followers span {
+    font-weight: 700;
+}
+
+.following p {
+    margin: 0px;
+    color: white;
+}
+
+.following span {
+    font-weight: 700;
+}
+
+.bio {
+    line-height: 1.5em;
+}
+
+.bio p {
+    margin: 0px;
+    max-width: 365px;
+    margin-bottom: 16px;
+}
+
+.bio h4 {
+    margin: 0px;
+}
+
+.location {
+    display: flex;
+}
+
+.pin {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.repo-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.repo {
+    max-width: 550px;
+    min-height: 300px;
+    width: 100%;
+    border: 3px black solid;
+    border-radius: 4px;
+    padding: 32px;
+    margin-bottom: 64px;
+    display: flex;
+    text-decoration: none;
+    transition: all .3s ease;
+    background-color: white;
+}
+
+.repo:hover {
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.repo span {
+    font-weight: 700;
+}
+
+.repo p {
+    margin: 0px;
+}
+
+.repo-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.repo-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-container svg {
+    height: 12px;
+    transition: all .3s ease;
+}
+
+.repo:hover .title-container svg {
+    transform: translateX(5px);
+}
+
+.title {
+    color: #5551ff;
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.language {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.language p {
+    margin: 0x;
+}
+
+.repo-stats {
+    display: flex;
+    margin-top: auto;
+}
+
+.repo-stats p {
+    margin-right: 16px;
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-badge {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .input {
+        width: 150px;
+    }
+
+    .avatar {
+        width: 128px;
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+
+    .bio p {
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .location {
+        justify-content: center;
+    }
+
+    .repo {
+        margin-bottom: 32px;
+    }
+}
