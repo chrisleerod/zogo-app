@@ -1,4 +1,8 @@
-# About
+# ZogoApp
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
+
+## About
 
 The approach for this project was to use GitHub's traditional black and white colors to spin off a playful look for a web-app that displays a user's GitHub stats such as followers, repos, etc. I wanted to spend more time on the optional features, but was running short on time. (thanks, finals)
 
@@ -9,13 +13,9 @@ Things I wanted to explore, if given more time:
 - Repo sort functionality (popularity, language, etc.)
 - "Home" page
 
-# How to use
+## How to use
 
 Use the search field in the top right to search any GitHub user!
-
-# ZogoApp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
 ## Development server
 
